@@ -1,0 +1,434 @@
+[
+    {
+        "name": "A Dark Power",
+        "id": 1,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "As You Wish",
+        "id": 2,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Fire At Will",
+        "id": 3,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "High-Value Target",
+        "id": 4,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Hired Help",
+        "id": 5,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Impending Doom",
+        "id": 6,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Imperial Informants",
+        "id": 7,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Imperial Operative",
+        "id": 8,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Internal Affairs",
+        "id": 9,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Interrogation Protocol",
+        "id": 10,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "ISB Enforcers",
+        "id": 11,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Priority Shift",
+        "id": 12,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Restorative Supplies",
+        "id": 13,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Tactical Explosives",
+        "id": 14,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Tactical Maneuvering",
+        "id": 15,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Tracking Beacon",
+        "id": 16,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Weakness Revealed",
+        "id": 17,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Death Mark",
+        "id": 18,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Strike And Subdue",
+        "id": 19,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Data Security",
+        "id": 20,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Counter-Strike",
+        "id": 21,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Enhanced Armor",
+        "id": 22,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Personal Shield Generator",
+        "id": 23,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Bestial Fury",
+        "id": 24,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Exposed to the Elements",
+        "id": 25,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Unchained",
+        "id": 26,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Feigned Retreat",
+        "id": 27,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Hasty Ambush",
+        "id": 28,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Call Your Shot",
+        "id": 29,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Shoot First",
+        "id": 30,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Jetpacks",
+        "id": 31,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "No Rest for the Weary",
+        "id": 32,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Snap Fire",
+        "id": 33,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Reinforcements En Route",
+        "id": 34,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Survelliance Cams",
+        "id": 35,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Costly Victory",
+        "id": 36,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Selfless Devotion",
+        "id": 37,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Gas Canisters",
+        "id": 38,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Ongoing Research",
+        "id": 39,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Best of the Best",
+        "id": 40,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Pulling the Strings",
+        "id": 41,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Firepower Upgrade",
+        "id": 42,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Sabotaged Plans",
+        "id": 43,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Inspiring Command",
+        "id": 44,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "By Any Means Necessary",
+        "id": 45,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Military Presence",
+        "id": 46,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Perpetual Reinforcement",
+        "id": 47,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Grievous Wound",
+        "id": 48,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Final Blast",
+        "id": 49,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Trade Routes Disrupted",
+        "id": 50,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Set for Stun",
+        "id": 51,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "To The Last Man",
+        "id": 52,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Beaten Down",
+        "id": 53,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Armored Division",
+        "id": 54,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Explosive Shrapnel",
+        "id": 55,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Under Surveillance",
+        "id": 56,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Quiet Entry",
+        "id": 57,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Trip Mine",
+        "id": 58,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Furious Retaliation",
+        "id": 59,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Head Hunting",
+        "id": 60,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "On Jabba's Orders",
+        "id": 61,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Dewback Patrol",
+        "id": 62,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Stealth Squad",
+        "id": 63,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "When They Least Expect It",
+        "id": 64,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Ion Blasters",
+        "id": 65,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Jawa Raid",
+        "id": 66,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Critical Strikes",
+        "id": 67,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "For the Emperor",
+        "id": 68,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Isolation",
+        "id": 69,
+        "set": "Agenda",
+        "type": "Global"
+    },
+    {
+        "name": "Final Offer",
+        "id": 70,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Piece By Piece",
+        "id": 71,
+        "set": "Agenda",
+        "type": "Instant"
+    },
+    {
+        "name": "Priority Shift",
+        "id": 72,
+        "set": "Agenda",
+        "type": "Instant"
+    }
+]

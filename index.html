@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Event Deck Helper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/events.css">
+</head>
+
+<body>
+    <div id="title" class="d-flex flex-row justify-content-center my-2">
+        <h4 class="animated zoomIn">Imperial Assault RAIV Event Deck Helper</h2>
+    </div>
+
+    <div class="d-flex flex-row justify-content-around m-2 p-2 flex-wrap boarder align-items-center">
+        <h5>Event Deck Setup</h5>
+        <div class="dropdown show m-2">
+            <button class="btn btn-dark btn-block btn-m dropdown-toggle" type="button" id="difficultyDropdownMenu"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select Difficulty
+            </button>
+            <div class="dropdown-menu " aria-labelledby="difficultyDropdownMenu">
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Unpredictable - Draw 25 Event cards randomly">Standard</a>
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Very Low - Draw 20 Tier I cards and 5 Tier II cards">Youngling</a>
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Low - Draw 13 Tier I cards and 12 Tier II cards">Padawan</a>
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Medium - Draw 8 Tier I cards, 9 Tier II and 8 Tier III card">Jedi Knight</a>
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Hight - Draw 10 Tier II cards and 15 Tier III cards">Jedi Master</a>
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Very Hight - Draw 5 Tier II cards and 20 Tier III cards">Yoda</a>
+                <a class="dropdown-item" href="#" data-toggle="tooltip" data-placement="bottom"
+                    title="Unpredictable - Use All event cards">All Events</a>
+            </div>
+        </div>
+
+        <div class="d-flex flex-fill m-1"><button type="button" class="btn btn-dark btn-block btn-m" id="buildDeckBtn"
+                onclick="buildDeck()" disabled>Build Event Deck</button></div>
+
+        <div class="d-flex flex-fill m-1"><button type="button" class="btn btn-dark btn-block btn-m" id="addRebelAidBtn"
+                onclick="addRebelAidCard()" disabled>Add a Rebel Aid card</button></div>
+
+        <div class="d-flex flex-fill m-1"><button type="button" class="btn btn-dark btn-block btn-m" id="addAgendaBtn"
+                onclick="addAgendaCard()" disabled>Add an Imperial Agenda card</button></div>
+
+        <div class="d-flex flex-filld m-1"><button type="button" class="btn btn-dark btn-block btn-m" id="saveDeckBtn"
+                onclick="saveDeck()" disabled>Save Deck</button></div>
+
+        <div class="d-flex boarder align-items-center m-1">
+            <div class="d-flex flex-fill m-2">
+                <h6>Load Deck</h6>
+            </div>
+            <div class="d-flex"><input type="file" id="loadDeckInput" onchange="loadDeck(this)">
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-around m-2 flex-wrap boarder align-items-center">
+        <div class="d-flex mx-2">
+            <button type="button" class="btn btn-dark btn-block btn-m m-2" id="drawEventBtn" onclick="drawEvent()"
+                disabled>Draw an Event</button>
+        </div>
+        <div class="d-flex mx-2">
+            <button type="button" class="btn btn-dark btn-block btn-m m-2" id="twoGlobalEventBtn"
+                onclick="toggle2GlobalEvent()"
+                title="To handle Tracking Beacon Agenda Card that add additional Global Event" disabled>Enable 2
+                Standard Global Event</button>
+        </div>
+
+        <div class="d-flex flex-fill flex-row justify-content-around">
+            <div class="d-flex boarder p-1 m-1 align-items-center">
+                <div class="mx-2">Event Deck Size:</div>
+                <div class="mx-2" id="eventDeckSize">0</div>
+                <button type="button" class="btn btn-dark mx-2" id="eventDeckBtn" onclick="viewEventDeck()"
+                    data-toggle="modal" data-target="#eventDeckModal" disabled>View Deck</button>
+            </div>
+            <div class="d-flex boarder p-1 m-1 align-items-center">
+                <div class="mx-2">Drew Event Deck Size:</div>
+                <div class="mx-2" id="drewEventDeckSize">0</div>
+                <button type="button" class="btn btn-dark mx-2" id="drewEventDeckBtn" onclick="viewDrewEventDeck()"
+                    data-toggle="modal" data-target="#eventDeckModal" disabled>View Deck</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row flex-wrap justify-content-around">
+        <div class="d-flex flex-column flex-fill p-1 mx-2 align-items-center boarder">
+            <h6>All Instant - Event</h6>
+            <div class="d-flex flex-wrap p-1 flex-row" id="instandCardArea"></div>
+        </div>
+
+        <div class="d-flex flex-column flex-fill p-1 mx-2 align-items-center boarder">
+            <div class="d-flex flex-row align-items-center">
+                <h6>Standard Global Event</h6>
+                <button type="button" class="btn btn-dark btn-m mx-2" id="discardSGCardBtn"
+                    onclick="discardSGCard(this)" disabled>Discard</button>
+            </div>
+            <div class="d-flex flex-row flex-wrap p-1" id="standardCardArea"></div>
+        </div>
+
+        <div class="d-flex flex-column flex-fill p-1 mx-2 align-items-center boarder">
+            <div class="d-flex flex-row align-items-center">
+                <h6>Rebel Aid/Imperial Agenda Global Event</h6>
+                <button type="button" class="btn btn-dark btn-m mx-2" id="discardSCardBtn" onclick="discardSCard()"
+                    disabled>Discard</button>
+            </div>
+            <div class="d-flex flex-row flex-wrap p-1 selectable" id="speicalCardArea"></div>
+        </div>
+    </div>
+
+    <!-- View Deck Modal -->
+    <div class="modal" id="eventDeckModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="eventModalHeader"></h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <table class="table" id="eventModalTable"></table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/FileSaver.min.js"></script>
+    <script src="js/events.js"></script>
+</body>
+
+</html>

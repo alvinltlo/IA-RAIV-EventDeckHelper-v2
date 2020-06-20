@@ -1,0 +1,30 @@
+body{
+    font-family: 'Tinos', serif;
+}
+
+.boarder {
+    border: 2px solid;
+}
+
+.card{
+    border-radius: 8px;
+    width: 320px;
+    align-self: center;
+    flex: 0 0 auto;
+}
+
+.modal_card{
+    border-radius: 8px;
+    align-self: center;
+    width: 100%;
+}
+
+.selectable img {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ffffff;
+}
+
+img.selected {
+    border: 2px solid red; /* will overwrite color, only */
+}

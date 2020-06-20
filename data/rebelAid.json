@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Strike Team Ambush",
+        "id": 1,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Battle-Hardened",
+        "id": 2,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Blaster Upgrade",
+        "id": 3,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Combat Strength",
+        "id": 4,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Communication Disruption",
+        "id": 5,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Field Hospital",
+        "id": 6,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Guerilla Tactics",
+        "id": 7,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Hidden Explosives",
+        "id": 8,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Intelligence Report",
+        "id": 9,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Medic!",
+        "id": 10,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "New Intel",
+        "id": 11,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Personal Deflector Shields",
+        "id": 12,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Pride of the Rebellion",
+        "id": 13,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Rebel Commander",
+        "id": 14,
+        "set": "RebelAid",
+        "type": "Global"
+    },
+    {
+        "name": "Rush",
+        "id": 15,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Sabotage",
+        "id": 16,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Scout Report",
+        "id": 17,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "There is Hope",
+        "id": 18,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Unexpected Help",
+        "id": 19,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Bought Some Time",
+        "id": 20,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Retreat",
+        "id": 21,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "He's With Us",
+        "id": 22,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "X-Wing Strafing Run",
+        "id": 23,
+        "set": "RebelAid",
+        "type": "Instant"
+    },
+    {
+        "name": "Incompetent Officers",
+        "id": 24,
+        "set": "RebelAid",
+        "type": "Instant"
+    }
+]

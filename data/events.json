@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Electromagnetic Disruptors",
+        "tier": 1,
+        "id": 1,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Assault Armor",
+        "tier": 1,
+        "id": 2,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Heavy Pressure",
+        "tier": 1,
+        "id": 3,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Hidden Detonators",
+        "tier": 1,
+        "id": 4,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Jetpacks",
+        "tier": 1,
+        "id": 5,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Prey Upon Doubt",
+        "tier": 1,
+        "id": 6,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Riot Grenades",
+        "tier": 1,
+        "id": 7,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Superior Mobility",
+        "tier": 1,
+        "id": 8,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Technical Support",
+        "tier": 1,
+        "id": 9,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Weary",
+        "tier": 1,
+        "id": 10,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Reactive Armor",
+        "tier": 1,
+        "id": 11,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Sharpshooter",
+        "tier": 1,
+        "id": 12,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "In the Shadows",
+        "tier": 1,
+        "id": 13,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Stealth",
+        "tier": 1,
+        "id": 14,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Execution Squad",
+        "tier": 1,
+        "id": 15,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Fearsome Presence",
+        "tier": 1,
+        "id": 16,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Ringleader",
+        "tier": 1,
+        "id": 17,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Devastating Legions",
+        "tier": 1,
+        "id": 18,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Indomitable",
+        "tier": 1,
+        "id": 19,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Embrace Fear",
+        "tier": 1,
+        "id": 20,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "No Quarter",
+        "tier": 2,
+        "id": 21,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Oppression",
+        "tier": 2,
+        "id": 22,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Priority Shift",
+        "tier": 2,
+        "id": 23,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Riot Suppression",
+        "tier": 2,
+        "id": 24,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Shock Troopers",
+        "tier": 2,
+        "id": 25,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Superior Power",
+        "tier": 2,
+        "id": 26,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Noble Sacrifice",
+        "tier": 2,
+        "id": 27,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Optimal Tactics",
+        "tier": 2,
+        "id": 28,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Rapid Dominance",
+        "tier": 2,
+        "id": 29,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Knowledge of Attack",
+        "tier": 2,
+        "id": 30,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Assassins",
+        "tier": 2,
+        "id": 31,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Find The Weakeness",
+        "tier": 2,
+        "id": 32,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "I am on the Leader",
+        "tier": 2,
+        "id": 33,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Punishing Force",
+        "tier": 2,
+        "id": 34,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Mechanical Protocol",
+        "tier": 2,
+        "id": 35,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Targeting Sensors",
+        "tier": 2,
+        "id": 36,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Supernatural Vigor",
+        "tier": 2,
+        "id": 37,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Unnatural Abilities",
+        "tier": 2,
+        "id": 38,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Priority Shift",
+        "tier": 2,
+        "id": 39,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Priority Shift",
+        "tier": 2,
+        "id": 40,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Arc Blasters",
+        "tier": 3,
+        "id": 41,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Combat Veterans",
+        "tier": 42,
+        "id": 6,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Endless Ranks",
+        "tier": 43,
+        "id": 7,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Exploit Weakness",
+        "tier": 3,
+        "id": 44,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Failsafe",
+        "tier": 3,
+        "id": 45,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Sustained Fire",
+        "tier": 3,
+        "id": 46,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "True Shadow",
+        "tier": 3,
+        "id": 47,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Nowhere to Run",
+        "tier": 3,
+        "id": 48,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Guild Hunters",
+        "tier": 3,
+        "id": 49,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Leave Them to Me",
+        "tier": 3,
+        "id": 50,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Blaster Emplacement",
+        "tier": 3,
+        "id": 51,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Dark Resurgence",
+        "tier": 3,
+        "id": 52,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Embrace Suffering",
+        "tier": 3,
+        "id": 53,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Cloaking Device",
+        "tier": 3,
+        "id": 54,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Show of Force",
+        "tier": 3,
+        "id": 55,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Supervisory Agent",
+        "tier": 3,
+        "id": 56,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Press On",
+        "tier": 3,
+        "id": 57,
+        "set": "Standard",
+        "type": "Global"
+    },
+    {
+        "name": "Versatile Attack",
+        "tier": 3,
+        "id": 58,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Combat Medic",
+        "tier": 3,
+        "id": 59,
+        "set": "Standard",
+        "type": "Instant"
+    },
+    {
+        "name": "Surgical Strike",
+        "tier": 3,
+        "id": 60,
+        "set": "Standard",
+        "type": "Instant"
+    }
+]
