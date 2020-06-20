@@ -57,7 +57,7 @@
         "name": "Interrogation Protocol",
         "id": 10,
         "set": "Agenda",
-        "type": "Global"
+        "type": "Instant"
     },
     {
         "name": "ISB Enforcers",
