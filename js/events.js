@@ -144,6 +144,7 @@ function buildDeck() {
     drewEventDeckSize.textContent = evt_drew_deck.length;
 
     drawEventBtn.disabled = false;
+    resetEventBtn.disabled = false;
     eventDeckBtn.disabled = false;
     drewEventDeckBtn.disabled = false;
     instandCardArea.innerHTML = '';
@@ -155,9 +156,24 @@ function buildDeck() {
     twoGlobalEventBtn.disabled = false;
 }
 
+
+function resetEvent() {
+    evt_deck = evt_deck.concat(evt_drew_deck);
+    evt_drew_deck = [];
+    //update deck counter
+    eventDeckSize.textContent = evt_deck.length;
+    drewEventDeckSize.textContent = evt_drew_deck.length;
+
+    instandCardArea.innerHTML = '';
+    standardCardArea.innerHTML = '';
+    speicalCardArea.innerHTML = '';
+
+    if (evt_deck.length == 0)
+        drawEventBtn.disabled = true;
+}
+
 function drawEvent() {
     drew_card = evt_deck.splice(evt_deck.length * Math.random() | 0, 1)[0];
-    console.log(drew_card);
 
     switch (drew_card.set) {
         case "Standard":
@@ -190,7 +206,7 @@ function drawEvent() {
         }
         else {
             dest = standardCardArea;
-            if (twoGlobalEventBtn.textContent.trim() == "Enable 2 Standard Global Event")
+            if (twoGlobalEventBtn.value == "disabled")
                 dest.innerHTML = '';
             dest.appendChild(img);
         }
@@ -300,6 +316,7 @@ function loadDeck(input) {
         eventDeckSize.innerHTML = evt_deck.length;
         drewEventDeckSize.innerHTML = evt_drew_deck.length;
         drawEventBtn.disabled = false;
+        resetEventBtn.disabled = false;
         eventDeckBtn.disabled = false;
         drewEventDeckBtn.disabled = false;
         instandCardArea.innerHTML = '';
@@ -316,7 +333,9 @@ function loadDeck(input) {
 }
 
 function toggle2GlobalEvent() {
-    if (twoGlobalEventBtn.textContent.trim() == "Enable 2 Standard Global Event") {
+
+    if (twoGlobalEventBtn.value == "disabled") {
+        twoGlobalEventBtn.value = "enabled";
         standardCardArea.classList.add("selectable");
         twoGlobalEventBtn.textContent = "Disable 2 Standard Global Event";
         $('body').on('click', '#standardCardArea img', function () {
@@ -334,9 +353,11 @@ function toggle2GlobalEvent() {
             else
                 discardSGCardBtn.disabled = false;
         });
-    } else {
+    }
+    else {
         standardCardArea.classList.remove("selectable");
         twoGlobalEventBtn.textContent = "Enable 2 Standard Global Event";
+        twoGlobalEventBtn.value = "disabled";
         $('body').on('click', '#standardCardArea img', function () { });
     }
 }

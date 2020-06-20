@@ -67,8 +67,12 @@
                 disabled>Draw an Event</button>
         </div>
         <div class="d-flex mx-2">
+            <button type="button" class="btn btn-dark btn-block btn-m m-2" id="resetEventBtn" onclick="resetEvent()"
+                disabled>Reset Event Deck</button>
+        </div>
+        <div class="d-flex mx-2">
             <button type="button" class="btn btn-dark btn-block btn-m m-2" id="twoGlobalEventBtn"
-                onclick="toggle2GlobalEvent()"
+                onclick="toggle2GlobalEvent()" value="disabled"
                 title="To handle Tracking Beacon Agenda Card that add additional Global Event" disabled>Enable 2
                 Standard Global Event</button>
         </div>
